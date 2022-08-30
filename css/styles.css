@@ -1,0 +1,202 @@
+/* CONFIGURACIONES GENERALES */
+
+body { /*realizar cambios de estilo en el body*/
+    background-color: #60AE68; /*agregar color al fondo*/
+    font-family: 'Montserrat', 'Arial';
+    margin: 0;
+    height: 760px;
+    width: 1519px;
+}
+
+th, td {
+    text-align: center;
+    width: 100%;
+}
+
+/* ENCABEZADOS Y PIE DE PAGINA */
+
+.cabecera {
+    background-color: black;
+    padding: 2px;
+}
+
+.encabezado {
+    left: 0px;
+    top: 0px;
+}
+
+.titulo-header {
+    color: white;
+    padding: 5px 620px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px;
+}
+
+.pie {
+    background: rgba(0, 0, 0, 0.72);
+    padding: 2px;
+}
+
+.titulo-footer {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+    align-items: center;
+    padding: 0px 570px;
+}
+
+.titulo-footer2 {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+    padding: 0px 710px;
+}
+
+/* ZONA DE INGRESO DE PUNTAJES */
+
+.contenedor-secundario {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 670px;
+}
+
+.zona-juego {
+    width: 1024px;
+    padding: 45px 50px;
+    display: flex;
+    font-size: 31px;
+    font-weight: bold;
+    color: white;
+}
+
+.marcador {
+    margin-left: 14px;
+    background-color: #CF3636;
+    margin-bottom: auto;
+}
+
+.tabla-marcador {
+    border-collapse: separate;
+    border-spacing: 12px;
+    margin: 10px;
+}
+
+.input {
+    box-sizing: border-box;
+    border: solid 2px black;
+    background: white;
+    width: 50px;
+    font-size: 25px;
+}
+
+.posiciones {
+    margin-left: 20px;
+    background-color: #2C6359;
+    margin-bottom: auto;
+}
+
+.tabla-posicion {
+    border-collapse: separate;
+    border-spacing: 12px;
+    margin: 5px;
+}
+
+.p1 {
+    background: white;
+    border: solid 2px black;
+    box-sizing: border-box;
+    text-align: end;
+    min-width: 15px;
+    width: 225px;
+    font-size: 25px;
+    color: black;
+}
+
+.p2 {
+    background: white;
+    border: solid 2px black;
+    box-sizing: border-box;
+    text-align: end;
+    min-width: 15px;
+    width: 150px;
+    font-size: 25px;
+    color: black;
+}
+
+/* ZONA DE INGRESO DE EQUIPOS */
+
+.zona-control {
+    background-color: #527D4E;
+    padding: 20px;
+    font-size: x-large;
+}
+
+.e {
+    margin-top: 40px;
+    line-height: 0;
+}
+
+.nom-equi {
+    margin-left: 150px;
+}
+
+.equi1 {
+    box-sizing: border-box;
+    border: solid 2px black;
+    background: white;
+    height: 30px;
+    width: 250px;
+    margin-left: 90px;
+    font-size: 25px;
+}
+
+.m1 {
+    background: white;
+    border: solid 1px black;
+    box-sizing: border-box;
+    text-align: end;
+    min-width: 75px;
+    padding: 0 15px;
+}
+
+/* BOTONES */
+
+/* BOTON DE JUGAR */
+.boton1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    background: #D9D231;
+    border: solid 1px black;
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 88px;
+
+}
+
+.boton1:active {
+    background: #b8b35f;
+}
+
+/* BOTON DE REINICIAR */
+
+.boton2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    background: #24dd65;
+    border: solid 1px black;
+    width: 100px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.boton2:active {
+    background: #91dbab;
+}
+

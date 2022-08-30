@@ -1,0 +1,175 @@
+<!DOCTYPE html> <!-- tipo de documento HTML -->
+<html lang="en"> <!-- lenguaje de la pagina -->
+<head> <!-- Cabezera o principal de un doc -->
+    <!-- La información interna -->
+    <meta charset="UTF-8"> <!-- tipo de codificacion -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTBOLEROS</title> <!-- Nombre de pagina -->
+    <link rel="stylesheet" href="css/styles.css"> <!-- Enlace a los estilos en css-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body><!-- Contenido -->
+    <div class="contenedor-principal">
+        <!-- Encabezado -->
+        <div class="cabecera">
+            <header class="encabezado">
+                <h1 class="titulo-header">FUTBOLEROS</h1>
+            </header>
+        </div>
+        <!-- Contenido principal -->
+        <div class="contenedor-secundario">
+            <!-- Zona de juego -->
+            <div class="zona-juego">
+                <!-- Bloque de tabla de marcador -->
+                <div class="marcador"> 
+                    <table class="tabla-marcador">
+                        <tr>
+                            <th scope="row">VS</th>
+                            <th colspan="2">Marcador</th>
+                        </tr>
+                        <tr>
+                            <td>1 - 2</td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk12" value="0">
+                            </td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk21" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3 - 4</td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk34" value="0">
+                            </td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk43" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>1 - 3</td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk13" value="0">
+                            </td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk31" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2 - 4</td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk24" value="0">
+                            </td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk42" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3 - 2</td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk32" value="0">
+                            </td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk23" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4 - 1</td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk41" value="0">
+                            </td>
+                            <td>
+                                <input class="input" type="text" maxlength="3" id="mrk14" value="0">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- bloque de tabla de posiciones -->
+                <div class="posiciones">
+                    <table class="tabla-posicion">
+                        <tr>
+                            <th colspan="2">Posiciones</th>
+                            <th>Puntajes</th>
+                        </tr>
+                        <tr>
+                            <td>1°</td>
+                            <td>
+                                <input class="p1" type="text" maxlength="15" id="pos1" disabled>
+                            </td>
+                            <td>
+                                <input class="p2" type="text" maxlength="5" id="pun1" disabled>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2°</td>
+                            <td>
+                                <input class="p1" type="text" maxlength="15" id="pos2" disabled>
+                            </td>
+                            <td>
+                                <input class="p2" type="text" maxlength="5" id="pun2" disabled>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3°</td>
+                            <td>
+                                <input class="p1" type="text" maxlength="15" id="pos3" disabled>
+                            </td>
+                            <td>
+                                <input class="p2" type="text" maxlength="5" id="pun3" disabled>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4°</td>
+                            <td>
+                                <input class="p1" type="text" maxlength="15" id="pos4" disabled>
+                            </td>
+                            <td>
+                                <input class="p2" type="text" maxlength="5" id="pun4" disabled>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- Zona de ingreso -->
+            <aside class="zona-control">
+                <p>
+                    Aqui podra ingresar el nombre de los 4 equipos.
+                </p>
+                <!-- entrada de datos para equipo 1 -->
+                <div class="e">
+                    <h4 class="nom-equi">Equipo N°1:</h4>
+                    <input class="equi1" type="text" maxlength="15" value="" data-min="0" id="equipo1">
+                </div>
+                <!-- entrada de datos para equipo 2 -->
+                <div class="e">
+                    <h4 class="nom-equi">Equipo N°2:</h4>
+                    <input class="equi1" type="text" maxlength="15" value="" data-min="0" id="equipo2">
+                </div>
+                <!-- entrada de datos para equipo 3 -->
+                <div class="e">
+                    <h4 class="nom-equi">Equipo N°3:</h4>
+                    <input class="equi1" type="text" maxlength="15" value="" data-min="0" id="equipo3">
+                </div>
+                <!-- entrada de datos para equipo 4 -->
+                <div class="e">
+                    <h4 class="nom-equi">Equipo N°4:</h4>
+                    <input class="equi1" type="text" maxlength="15" value="" data-min="0" id="equipo4">
+                </div>
+                <!-- bloque de botones de accion -->
+                <div>
+                    <button class="boton1" type="button" onclick="equipos()">JUGAR</button>
+                    <button class="boton2" type="reset" onclick="reset()">RESET</button>
+                </div>
+            </aside>
+        </div>
+        <!-- Pie de pagina -->
+        <div class="pie">
+            <footer class="pie-pagina">
+                <h3 class="titulo-footer">Desarrollado por: Santiago Camargo</h5>
+                <h3 class="titulo-footer2">2022</h5>
+            </footer>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/function.js"></script>
+</body>
+</html>
